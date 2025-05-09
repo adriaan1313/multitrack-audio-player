@@ -1,0 +1,1 @@
+window.Multitrack = require("./src/index.js");
