@@ -126,6 +126,10 @@ export class Track {
     return this.#masterGain;
   }
 
+  get buffer() {
+    return this.#buffer;
+  }
+
   set masterGain(newMasterGain) {
     this.#masterGain = newMasterGain;
     this.#applyGainParams();
